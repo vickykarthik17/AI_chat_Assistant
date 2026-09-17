@@ -314,6 +314,6 @@ Vikram Karthik
 
 - GitHub: https://github.com/vickykarthik17
 - Portfolio: https://my-portfolio-tan-delta-72.vercel.app/
-- Project repository: 
+- Project repository: https://github.com/vickykarthik17/AI_chat_Assistant.git
 
-For bugs and feature requests, open an issue at [Insert Issues URL].
+For bugs and feature requests, open an issue at [GitHub Issues](https://github.com/vickykarthik17/AI_chat_Assistant/issues).
