@@ -310,11 +310,10 @@ Add the complete license text to a `LICENSE` file and update this section with t
 
 ## Contact
 
-**[Your Name]**
+Vikram Karthik
 
-- GitHub: [Insert GitHub profile URL]
-- Twitter/X: [Insert Twitter/X profile URL]
-- Portfolio: [Insert portfolio URL]
-- Project repository: [Insert repository URL]
+- GitHub: https://github.com/vickykarthik17
+- Portfolio: https://my-portfolio-tan-delta-72.vercel.app/
+- Project repository: 
 
 For bugs and feature requests, open an issue at [Insert Issues URL].
