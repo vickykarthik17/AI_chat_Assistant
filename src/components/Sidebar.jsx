@@ -131,7 +131,7 @@ export default function Sidebar({
         </div>
 
         <div className="border-t border-white/10 px-4 py-3">
-          <p className="text-xs text-gray-600">Powered by Claude 3.5 Sonnet</p>
+          <p className="text-xs text-gray-600">Powered by Gemini</p>
         </div>
       </aside>
     </>

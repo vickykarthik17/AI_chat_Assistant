@@ -1,0 +1,12 @@
+html.support-preview-html,
+body.support-preview-page,
+body.support-preview-page #root {
+  height: 100%;
+}
+
+html.support-preview-html,
+body.support-preview-page {
+  overflow: hidden;
+  background: transparent;
+  color-scheme: light;
+}

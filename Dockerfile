@@ -2,10 +2,10 @@ FROM node:20-alpine AS build
 
 WORKDIR /app
 
-ARG VITE_API_TOKEN
-ENV VITE_API_TOKEN=$VITE_API_TOKEN
-
 COPY package.json package-lock.json ./
+COPY vite.widget.config.js ./
+COPY src/widget-entry.jsx src/widget.css ./src/
+COPY src/components/SupportChatWidget.jsx ./src/components/
 RUN npm ci
 
 COPY . .

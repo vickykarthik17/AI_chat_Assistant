@@ -1,20 +1,26 @@
 {
   "name": "ai-chat-assistant",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "exports": {
+    "./widget": "./dist/widget/support-widget.js",
+    "./widget.css": "./dist/widget/style.css"
+  },
+  "files": [
+    "dist/widget"
+  ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run build:widget",
+    "build:widget": "vite build --config vite.widget.config.js",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "npm run build:widget"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
-    "ai-chat-assistant": "file:",
     "lucide-react": "^0.446.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1"
   },
@@ -30,5 +36,9 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "vite": "^5.4.2"
+  },
+  "peerDependencies": {
+    "react": ">=18.3.1 <20",
+    "react-dom": ">=18.3.1 <20"
   }
 }
